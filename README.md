@@ -1,11 +1,13 @@
-📝 Simple Notes Web App - Backend Guide
+## 📝 Simple Notes Web App - Backend Guide
+
+
 This project focuses on the backend development of a simple note-taking web application using Node.js, Express, 
 and File System (fs) for persistent note storage. The frontend (HTML, CSS, JavaScript) is already built and 
 lives in the public/ folder.
 
 Our goal is to build an API that allows users to create, view, and delete notes.
 
-🔧 Development Steps
+## 🔧 Development Steps
 
 1. Folder Structure
 ~~~
@@ -36,7 +38,7 @@ Endpoint	         Method	     Description
 ~~~
 Notes are stored as .txt files inside the /notes folder.# Personal-note-manager-app
 
-3. Screenshots
+## Screenshots
 
    <img width="1445" height="745" alt="Screenshot 2025-09-19 at 11 05 01 PM" src="https://github.com/user-attachments/assets/59cf19c5-4c30-42f0-bb78-6c678855520b" />
    <img width="1445" height="734" alt="Screenshot 2025-09-19 at 11 05 23 PM" src="https://github.com/user-attachments/assets/bd74b523-91ca-4dde-a5b8-2a8b35a2078f" />
