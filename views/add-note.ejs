@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes App</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <h2>Add a New Note</h2>
+
+    <a href="/" style="text-decoration: none;">
+        <button type="button">⬅ Back to Home</button>
+    </a>
+    <br><br>
+
+    <form method="POST" action="/notes/add">
+        <input type="text" name="title" placeholder="Title" required><br><br>
+        <textarea name="content" placeholder="Note content..." rows="5" cols="30" required></textarea><br><br>
+        <button type="submit">Save Note</button>
+    </form>
+</body>
+</html>

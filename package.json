@@ -1,0 +1,16 @@
+{
+  "name": "personalnotemanagerapp",
+  "version": "1.0.0",
+  "description": "A simple notes management app is a basic web application build using Node.js and Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ashutosh Dwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
